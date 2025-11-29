@@ -40,6 +40,7 @@
 		B5B3B8EB2CB5019400F457FE /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = B5B3B8EA2CB5019400F457FE /* nice_music.ogg */; };
 		B5B3B8ED2CB5019400F457FE /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B3B8EC2CB5019400F457FE /* sansation.ttf */; };
 		B5B3B8EF2CB5019400F457FE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B3B8EE2CB5019400F457FE /* icon.png */; };
+		B5CF9C2C2EDAD33D0036F7B4 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CF9C2B2EDAD33D0036F7B4 /* AppMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,8 +73,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B51160192233C4F800B39FE2 /* Particle3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Particle3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B511601D2233C4F800B39FE2 /* Particle3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Particle3-Info.plist"; sourceTree = "<group>"; };
+		B51160192233C4F800B39FE2 /* Particle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Particle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B511601D2233C4F800B39FE2 /* Particle-Life-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Particle-Life-Info.plist"; sourceTree = "<group>"; };
 		B51160312233C53300B39FE2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../ParticleLife/ParticleLife/README.md; sourceTree = "<group>"; };
 		B51160322233C53300B39FE2 /* Universe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Universe.cpp; path = ../../ParticleLife/ParticleLife/Universe.cpp; sourceTree = "<group>"; };
 		B51160332233C53300B39FE2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../ParticleLife/ParticleLife/main.cpp; sourceTree = "<group>"; };
@@ -82,15 +83,15 @@
 		B51160362233C53300B39FE2 /* HSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSV.h; path = ../../ParticleLife/ParticleLife/HSV.h; sourceTree = "<group>"; };
 		B51160372233C53300B39FE2 /* Particles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particles.h; path = ../../ParticleLife/ParticleLife/Particles.h; sourceTree = "<group>"; };
 		B51160382233C53300B39FE2 /* Universe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Universe.h; path = ../../ParticleLife/ParticleLife/Universe.h; sourceTree = "<group>"; };
-		B54588632CC46122008BD40B /* Particle3 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Particle3 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B54588642CC46122008BD40B /* Particle3 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Particle3 copy-Info.plist"; path = "/Users/ben/Workspace/Particle-Life/Particle3/Particle3 copy-Info.plist"; sourceTree = "<absolute>"; };
+		B54588632CC46122008BD40B /* Particle-Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Particle-Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54588642CC46122008BD40B /* Particle-Life-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Particle-Life-Info.plist"; path = "/Users/ben/Workspace/Particle-Life/Particle-Life/Particle-Life-Info.plist"; sourceTree = "<absolute>"; };
 		B54E8C4C299F37AB0088755C /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-graphics.framework"; sourceTree = "<group>"; };
 		B54E8C4D299F37AB0088755C /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-audio.framework"; sourceTree = "<group>"; };
 		B54E8C4E299F37AB0088755C /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-system.framework"; sourceTree = "<group>"; };
 		B54E8C4F299F37AB0088755C /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-window.framework"; sourceTree = "<group>"; };
 		B54E8C50299F37AB0088755C /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-network.framework"; sourceTree = "<group>"; };
-		B5B3B8DE2CB5019400F457FE /* particl33.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = particl33.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5B3B8E12CB5019400F457FE /* particl33-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "particl33-Info.plist"; path = "../particl33-Info.plist"; sourceTree = "<group>"; };
+		B5B3B8DE2CB5019400F457FE /* particle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = particle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B3B8E12CB5019400F457FE /* particle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "particle-Info.plist"; path = "../particle-Info.plist"; sourceTree = "<group>"; };
 		B5B3B8E22CB5019400F457FE /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		B5B3B8E42CB5019400F457FE /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		B5B3B8E52CB5019400F457FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 		B5B3B8EC2CB5019400F457FE /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sansation.ttf; path = ../sansation.ttf; sourceTree = "<group>"; };
 		B5B3B8EE2CB5019400F457FE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 		B5CA6C6A2CC0A9B5009BD7C1 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SFML.framework; sourceTree = "<group>"; };
+		B5CF9C2B2EDAD33D0036F7B4 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppMain.swift; path = /Users/ben/Workspace/AppMain.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,10 +137,10 @@
 		B511600F2233C4F800B39FE2 = {
 			isa = PBXGroup;
 			children = (
-				B511601B2233C4F800B39FE2 /* Particle3 */,
-				B5B3B8DF2CB5019400F457FE /* particl33 */,
+				B511601B2233C4F800B39FE2 /* Particle */,
+				B5B3B8DF2CB5019400F457FE /* particle */,
 				B5CA6C592CC0A8A8009BD7C1 /* Frameworks */,
-				B54588642CC46122008BD40B /* Particle3 copy-Info.plist */,
+				B54588642CC46122008BD40B /* Particle-Life-Info.plist */,
 				B511601A2233C4F800B39FE2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -146,14 +148,14 @@
 		B511601A2233C4F800B39FE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B51160192233C4F800B39FE2 /* Particle3.app */,
-				B5B3B8DE2CB5019400F457FE /* particl33.app */,
-				B54588632CC46122008BD40B /* Particle3 copy.app */,
+				B51160192233C4F800B39FE2 /* Particle.app */,
+				B5B3B8DE2CB5019400F457FE /* particle.app */,
+				B54588632CC46122008BD40B /* Particle-Life.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B511601B2233C4F800B39FE2 /* Particle3 */ = {
+		B511601B2233C4F800B39FE2 /* Particle */ = {
 			isa = PBXGroup;
 			children = (
 				B51160362233C53300B39FE2 /* HSV.h */,
@@ -168,13 +170,13 @@
 				B51160232233C4F800B39FE2 /* Resources */,
 				B511601C2233C4F800B39FE2 /* Supporting Files */,
 			);
-			path = Particle3;
+			path = Particle;
 			sourceTree = "<group>";
 		};
 		B511601C2233C4F800B39FE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B511601D2233C4F800B39FE2 /* Particle3-Info.plist */,
+				B511601D2233C4F800B39FE2 /* Particle-Life-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -195,12 +197,13 @@
 				B54E8C4E299F37AB0088755C /* sfml-system.framework */,
 				B54E8C4F299F37AB0088755C /* sfml-window.framework */,
 				B5CA6C6A2CC0A9B5009BD7C1 /* SFML.framework */,
+				B5CF9C2B2EDAD33D0036F7B4 /* AppMain.swift */,
 			);
 			name = Frameworks;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		B5B3B8DF2CB5019400F457FE /* particl33 */ = {
+		B5B3B8DF2CB5019400F457FE /* particle */ = {
 			isa = PBXGroup;
 			children = (
 				B5B3B8E22CB5019400F457FE /* ResourcePath.mm */,
@@ -209,13 +212,13 @@
 				B5B3B8E72CB5019400F457FE /* Resources */,
 				B5B3B8E02CB5019400F457FE /* Supporting Files */,
 			);
-			path = particl33;
+			path = particle;
 			sourceTree = "<group>";
 		};
 		B5B3B8E02CB5019400F457FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B5B3B8E12CB5019400F457FE /* particl33-Info.plist */,
+				B5B3B8E12CB5019400F457FE /* particle-Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -241,9 +244,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B51160182233C4F800B39FE2 /* Particle3 */ = {
+		B51160182233C4F800B39FE2 /* Particle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B511602E2233C4F800B39FE2 /* Build configuration list for PBXNativeTarget "Particle3" */;
+			buildConfigurationList = B511602E2233C4F800B39FE2 /* Build configuration list for PBXNativeTarget "Particle" */;
 			buildPhases = (
 				B51160142233C4F800B39FE2 /* Sources */,
 				B51160152233C4F800B39FE2 /* Frameworks */,
@@ -255,14 +258,14 @@
 			);
 			dependencies = (
 			);
-			name = Particle3;
+			name = Particle;
 			productName = Particle2;
-			productReference = B51160192233C4F800B39FE2 /* Particle3.app */;
+			productReference = B51160192233C4F800B39FE2 /* Particle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B54588442CC46122008BD40B /* Particle3 copy */ = {
+		B54588442CC46122008BD40B /* Particle-Life */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B54588602CC46122008BD40B /* Build configuration list for PBXNativeTarget "Particle3 copy" */;
+			buildConfigurationList = B54588602CC46122008BD40B /* Build configuration list for PBXNativeTarget "Particle-Life" */;
 			buildPhases = (
 				B54588452CC46122008BD40B /* Sources */,
 				B54588482CC46122008BD40B /* Frameworks */,
@@ -274,14 +277,14 @@
 			);
 			dependencies = (
 			);
-			name = "Particle3 copy";
+			name = "Particle-Life";
 			productName = Particle2;
-			productReference = B54588632CC46122008BD40B /* Particle3 copy.app */;
+			productReference = B54588632CC46122008BD40B /* Particle-Life.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5B3B8DD2CB5019400F457FE /* particl33 */ = {
+		B5B3B8DD2CB5019400F457FE /* particle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5B3B8F02CB5019400F457FE /* Build configuration list for PBXNativeTarget "particl33" */;
+			buildConfigurationList = B5B3B8F02CB5019400F457FE /* Build configuration list for PBXNativeTarget "particle" */;
 			buildPhases = (
 				B5B3B8D92CB5019400F457FE /* Sources */,
 				B5B3B8DA2CB5019400F457FE /* Frameworks */,
@@ -292,11 +295,11 @@
 			);
 			dependencies = (
 			);
-			name = particl33;
+			name = particle;
 			packageProductDependencies = (
 			);
-			productName = particl33;
-			productReference = B5B3B8DE2CB5019400F457FE /* particl33.app */;
+			productName = particle;
+			productReference = B5B3B8DE2CB5019400F457FE /* particle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +319,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B51160132233C4F800B39FE2 /* Build configuration list for PBXProject "Particle3" */;
+			buildConfigurationList = B51160132233C4F800B39FE2 /* Build configuration list for PBXProject "particle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -329,9 +332,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B51160182233C4F800B39FE2 /* Particle3 */,
-				B5B3B8DD2CB5019400F457FE /* particl33 */,
-				B54588442CC46122008BD40B /* Particle3 copy */,
+				B51160182233C4F800B39FE2 /* Particle */,
+				B5B3B8DD2CB5019400F457FE /* particle */,
+				B54588442CC46122008BD40B /* Particle-Life */,
 			);
 		};
 /* End PBXProject section */
@@ -444,6 +447,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B54588462CC46122008BD40B /* main.cpp in Sources */,
+				B5CF9C2C2EDAD33D0036F7B4 /* AppMain.swift in Sources */,
 				B54588472CC46122008BD40B /* Universe.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -621,7 +625,7 @@
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "Particle3/Particle3-Info.plist";
+				INFOPLIST_FILE = "Particle-Life/Particle-Life-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
@@ -649,7 +653,7 @@
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "Particle3/Particle3-Info.plist";
+				INFOPLIST_FILE = "Particle-Life/Particle-Life-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
@@ -676,7 +680,7 @@
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				EXCLUDED_ARCHS = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "Particle3 copy-Info.plist";
+				INFOPLIST_FILE = "Particle-Life-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				ONLY_ACTIVE_ARCH = YES;
@@ -709,7 +713,7 @@
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				EXCLUDED_ARCHS = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "Particle3 copy-Info.plist";
+				INFOPLIST_FILE = "Particle-Life-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				ONLY_ACTIVE_ARCH = YES;
@@ -734,7 +738,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "particl33/particl33-Info.plist";
+				INFOPLIST_FILE = "particle/particle-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -747,7 +751,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "particl33/particl33-Info.plist";
+				INFOPLIST_FILE = "particle/particle-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -757,7 +761,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B51160132233C4F800B39FE2 /* Build configuration list for PBXProject "Particle3" */ = {
+		B51160132233C4F800B39FE2 /* Build configuration list for PBXProject "particle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B511602C2233C4F800B39FE2 /* Debug */,
@@ -766,7 +770,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B511602E2233C4F800B39FE2 /* Build configuration list for PBXNativeTarget "Particle3" */ = {
+		B511602E2233C4F800B39FE2 /* Build configuration list for PBXNativeTarget "Particle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B511602F2233C4F800B39FE2 /* Debug */,
@@ -775,7 +779,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B54588602CC46122008BD40B /* Build configuration list for PBXNativeTarget "Particle3 copy" */ = {
+		B54588602CC46122008BD40B /* Build configuration list for PBXNativeTarget "Particle-Life" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B54588612CC46122008BD40B /* Debug */,
@@ -784,7 +788,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5B3B8F02CB5019400F457FE /* Build configuration list for PBXNativeTarget "particl33" */ = {
+		B5B3B8F02CB5019400F457FE /* Build configuration list for PBXNativeTarget "particle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5B3B8F12CB5019400F457FE /* Debug */,
