@@ -65,7 +65,25 @@ This fork introduces several experimental mechanics and interactive elements:
 
 ## Building
 
-This fork requires SFML 2.5+ frameworks. The project includes Xcode project files for macOS.
+This fork requires SFML 2.5+ frameworks.
+
+### macOS (CLI / CMake)
+
+1.  Ensure SFML is installed in `/Library/Frameworks`.
+2.  If you encounter "damaged" framework errors, remove the quarantine attributes:
+    ```bash
+    xattr -r -d com.apple.quarantine /Library/Frameworks/sfml-*.framework
+    ```
+3.  Build using CMake:
+    ```bash
+    cmake .
+    make
+    ./ParticleLife
+    ```
+
+### Xcode
+
+The project includes Xcode project files for macOS in the `particle.xcodeproj` directory.
 
 ---
 
